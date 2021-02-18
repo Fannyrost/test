@@ -1,0 +1,19 @@
+.btn {
+  background-color: #3bb4c1;
+  width: 130px;
+  height: auto;
+  margin: 0px auto;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 8px 5px;
+}
+
+.btn a {
+    color: white;
+}
+
+.btn:hover {
+   background-color: rgba(59, 180, 193, 0.8);
+   cursor: pointer;
+
+}

@@ -1,0 +1,44 @@
+.flexbox {
+  border: 5px solid red;
+  width: 98vw;
+  height: 60vh;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items:  center;
+}
+
+.card {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+
+img {
+  width: 30%;
+  object-fit: cover;
+  height: 100%
+}
+
+.card p {
+  margin-left: 10px;
+}
+
+
+/*
+1 - strucutre HTML
+2 - declare nos flexbox => display: flex;
+3 - Disposition sur l'axe horizontal => justify-content:
+flex-start
+center
+flex-end
+space-between
+space-around;
+4 - Disposition sur l'axe vertical. => align-items :
+flex-start
+center
+flex-end;
+*/
